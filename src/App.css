@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: url(images/header.jpeg);
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.TopReportsPage {
+  max-width: 100%;
+}
+
+.TopReportsPage-header {
+  padding: 10px;
+  background-color: bisque;
+}
+
+.TopReportsPage-header-detail {
+  padding: 10px 20px;
+  background-color: blueviolet;
+}
+
+.TopReportsPage-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.FilterBar-Filter {
+  display: inline-block;
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 2px 5px;
+  background-color: azure;
+}
+
+.FilterBar-Filter-active {
+  background-color: paleturquoise;
+}
+
+.ReportDisplay-container {
+  background-color: palegreen;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 10px 0;
+}
+
+.LegalNotice {
+  font-size: smaller;
+  color: #666;
+}
